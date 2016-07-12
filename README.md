@@ -34,6 +34,6 @@ After build the live555SDK, BasicUsageEnvironment.lib groupsock.lib liveMedia.li
 
 After build the live555SDK, all the headers needed will be copied to `live555SDK\include`.
 ### - Use the live555 lib.
-You can copy the `live555SDK\include` and `live555SDK\lib` to your project, and then after configure the header path and the lib path in your VS2010, you can use the live555 lib.
+Copy the `live555SDK\include` and `live555SDK\lib` to your VS2010 project, then configure the header path and the lib path, you can use the live555 lib.
 
 
