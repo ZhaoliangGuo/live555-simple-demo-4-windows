@@ -1,5 +1,7 @@
 ## live555-simple-demo
-Build the live555 in the VS2010(Debug/Release/Debug64/Release64)
+Build the live555 in the VS2010(Debug/Release/Debug64/Release64).
+
+After build the project, you can copy the 'include' and the 'lib' dir in the live555SDK to your project, and then after confiure the header path and the lib path, you can use the live555 lib.
 
 ## Structure
 ├─live555MediaServer  
