@@ -1,9 +1,11 @@
-## live555-simple-demo
+## 1. live555-simple-demo
 Build the live555 in the VS2010(Debug/Release/Debug64/Release64).
+ 
+- live555SDK : build the live555 lib  
+- live555MediaServer : a simplest rtsp server demo   
+- openRTSP : a simplest rtsp client demo 
 
-After build the project, you can copy the 'include' and the 'lib' dir in the live555SDK to your project, and then after confiure the header path and the lib path, you can use the live555 lib.
-
-## Structure
+## 2. Detailed Structure
 ├─live555MediaServer  
 |  
 ├─live555SDK  
@@ -26,3 +28,12 @@ After build the project, you can copy the 'include' and the 'lib' dir in the liv
 │      └─include  
 |  
 └─openRTSP  
+## 3. Steps.
+###  - Build the live555SDK
+After build the live555SDK, BasicUsageEnvironment.lib groupsock.lib liveMedia.lib UsageEnvironment.lib will be generated in the responding dir. For example, if you build in the Debug mode, that four lib mentioned above will be copied to `live555SDK\lib\Debug`, and if you build in the Release mode, these will by copied to `live555SDK\lib\Release`.
+
+After build the live555SDK, all the headers needed will be copied to `live555SDK\include`.
+### - Use the live555 lib.
+You can copy the `live555SDK\include` and `live555SDK\lib` to your project, and then after confiure the header path and the lib path in you VS2010, you can use the live555 lib.
+
+
