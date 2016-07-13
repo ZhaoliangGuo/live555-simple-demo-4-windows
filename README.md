@@ -2,8 +2,13 @@
 Build the live555 in VS2010(Debug/Release/Debug64/Release64).
  
 - live555SDK : build the live555 lib  
-- live555MediaServer : a simplest rtsp server demo   
-- openRTSP : a simplest rtsp client demo 
+- live555MediaServer : a simplest RTSP server applications demo   
+- openRTSP : a simplest RTSP client demo 
+
+
+> This code forms a set of C++ libraries for multimedia streaming, using open standard protocols (RTP/RTCP, RTSP, SIP). These libraries can be used to build streaming applications. The libraries can also be used to stream, receive, and process MPEG, H.265, H.264, H.263+, DV or JPEG video, and several audio codecs. They can easily be extended to support additional (audio and/or video) codecs, and can also be used to build basic RTSP or SIP clients and servers, and have been used to add streaming support to existing media player applications, such as "VLC" and "MPlayer". (For some specific examples of how these libraries can be used, see the test programs below.)
+http://www.live555.com/liveMedia/
+
 
 ## 2. Detailed Structure
 ├─live555MediaServer  
