@@ -1,5 +1,5 @@
 ## 1. live555-simple-demo
-Build the live555 in the VS2010(Debug/Release/Debug64/Release64).
+Build the live555 in VS2010(Debug/Release/Debug64/Release64).
  
 - live555SDK : build the live555 lib  
 - live555MediaServer : a simplest rtsp server demo   
