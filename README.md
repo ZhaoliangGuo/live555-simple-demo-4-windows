@@ -13,15 +13,15 @@ http://www.live555.com/liveMedia/
 
 
 ## 2. Detailed Structure
-├─live555MediaServer  
+├─live555MediaServer   
 |  
 ├─live555SDK  
 │  ├─BasicUsageEnvironment  
 │  │  └─include  
 │  ├─groupsock  
 │  │  └─include  
-│  ├─include                  -- When build the live555SDK, all the header files needer will be copy to this dir.  
-│  ├─lib                      -- When build the live555SDK, the responding .lib will be copy to this dir.   
+│  ├─include                  -- When build the live555SDK, all the header files needer will be copy to this directory.  
+│  ├─lib                      -- When build the live555SDK, the responding .lib will be copy to this directory.   
 │  │  ├─Debug                 -- Store the .lib when build in Debug mode.  
 │  │  ├─Debug64               -- Store the .lib when bulid in Debug64 mode.  
 │  │  ├─Release               -- Store the .lib when build in Release mode.  
@@ -32,7 +32,7 @@ http://www.live555.com/liveMedia/
 │  ├─proxyServer  
 │  ├─testProgs  
 │  └─UsageEnvironment  
-│      └─include  
+│      └─include    
 |  
 └─openRTSP  
 ## 3. Instructions.
